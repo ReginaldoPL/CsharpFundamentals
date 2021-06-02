@@ -8,12 +8,12 @@ namespace GradeBookTests
   {
 
     [Fact]
-    public void CSharpIsPassByValue()
+    public void Book1()
     {
       var book1 = GetBook("Book1");
       GetBookSetName(book1, "New Same");
 
-      Assert.Equal("New Same", book1.Name);
+      Assert.Equal("Book1", book1.Name);
     }
 
     private void GetBookSetName(Book book, string name)
