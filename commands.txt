@@ -8,3 +8,8 @@ dotnet restore > destroi e builda
 
 
 dotnet add reference ../../src/GradeBook/GradeBook.csproj > adiciona o arquivo do outro projeto (usado pra add o projeto real no de tese [não esquecer que a class tem que estar pública])
+
+dotnet new sln > criando Solution file
+dotnet sln add src\GradeBook\GradeBook.csproj
+dotnet build > nas pasta do sln, builda tudo
+d
