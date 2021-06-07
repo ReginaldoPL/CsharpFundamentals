@@ -1,8 +1,10 @@
 repositório do Curso - https://app.pluralsight.com/course-player?clipId=da67bd8b-7dec-4347-ab62-da09aa2dc70f
 
+dotnet new > lista os tipos de template de aplicação
 dotnet new console  > cria nova aplicação console
 dotnet new xunit > cria nova aplicação de teste
 dotnet run > roda a aplicação
+dotnet run --project .\GradeBook.csproj > roda um projeto específico
 dotnet buil > builda
 dotnet restore > destroi e builda
 

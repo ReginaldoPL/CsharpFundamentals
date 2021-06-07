@@ -17,7 +17,14 @@ namespace GradeBook
 
     public void AddGrade(double grade)
     {
-      grades.Add(grade);
+      if (grade <= 100 && grade >= 0)
+      {
+        grades.Add(grade);
+      }
+      else
+      {
+        throw new ArgumentException($"Invalid {nameof(grade)}");
+      }
 
     }
     public Statistics GetStatistics()
